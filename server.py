@@ -73,34 +73,124 @@ while True:
     if request[0]==29:
         keyboard.press("right ctrl")
     if request[0]==30:
-        keyboard.press("left ctrl")
-    if request[0]==31:
         keyboard.press("space")
-    if request[0]==32:
+    if request[0]==31:
         keyboard.press("esc")
-    if request[0]==33:
+    if request[0]==32:
         keyboard.press("enter")
-    if request[0]==34:
+    if request[0]==33:
         keyboard.press("backspace")
-    if request[0]==35:
+    if request[0]==34:
         keyboard.press("tab")
-    if request[0]==36:
+    if request[0]==35:
         keyboard.press("delete")
-    if request[0]==37:
+    if request[0]==36:
         keyboard.press("insert")
+    if request[0]==37:
+        keyboard.press("home")
     if request[0]==38:
-        keyboard.press("up")
+        keyboard.press("end")
     if request[0]==39:
-        keyboard.press("down")
+        keyboard.press("up")
     if request[0]==40:
-        keyboard.press("left")
+        keyboard.press("down")
     if request[0]==41:
-        keyboard.press("right")
+        keyboard.press("left")
     if request[0]==42:
-        mouse.press("left")
+        keyboard.press("right")
     if request[0]==43:
-        mouse.press("right")
+        keyboard.press("page up")
     if request[0]==44:
+        keyboard.press("page down")
+    if request[0]==45:
+        keyboard.press("0")
+    if request[0]==46:
+        keyboard.press("1")
+    if request[0]==47:
+        keyboard.press("2")
+    if request[0]==48:
+        keyboard.press("3")
+    if request[0]==49:
+        keyboard.press("4")
+    if request[0]==50:
+        keyboard.press("5")
+    if request[0]==51:
+        keyboard.press("6")
+    if request[0]==52:
+        keyboard.press("7")
+    if request[0]==53:
+        keyboard.press("8")
+    if request[0]==54:
+        keyboard.press("9")
+    if request[0]==55:
+        keyboard.press("f1")
+    if request[0]==56:
+        keyboard.press("f2")
+    if request[0]==57:
+        keyboard.press("f3")
+    if request[0]==58:
+        keyboard.press("f4")
+    if request[0]==58:
+        keyboard.press("f5")
+    if request[0]==59:
+        keyboard.press("f6")
+    if request[0]==60:
+        keyboard.press("f7")
+    if request[0]==61:
+        keyboard.press("f8")
+    if request[0]==62:
+        keyboard.press("f9")
+    if request[0]==63:
+        keyboard.press("f10")
+    if request[0]==64:
+        keyboard.press("f11")
+    if request[0]==65:
+        keyboard.press("f12")
+    if request[0]==66:
+        keyboard.press("num 0")
+    if request[0]==67:
+        keyboard.press("num 1")
+    if request[0]==68:
+        keyboard.press("num 2")
+    if request[0]==69:
+        keyboard.press("num 3")
+    if request[0]==70:
+        keyboard.press("num 4")
+    if request[0]==71:
+        keyboard.press("num 5")
+    if request[0]==72:
+        keyboard.press("num 6")
+    if request[0]==73:
+        keyboard.press("num 7")
+    if request[0]==74:
+        keyboard.press("num 8")
+    if request[0]==75:
+        keyboard.press("num 9")
+    if request[0]==76:
+        keyboard.press("num *")
+    if request[0]==77:
+        keyboard.press("num /")
+    if request[0]==78:
+        keyboard.press("num +")
+    if request[0]==79:
+        keyboard.press("num -")
+    if request[0]==80:
+        keyboard.press("num enter")
+    if request[0]==81:
+        keyboard.press("num .")
+    if request[0]==82:
+        keyboard.press("caps lock")
+    if request[0]==83:
+        keyboard.press("screen lock")
+    if request[0]==84:
+        keyboard.press("print screen")
+    if request[0]==85:
+        keyboard.press("pause")
+    if request[0]==86:
+        mouse.press("left")
+    if request[0]==87:
+        mouse.press("right")
+    if request[0]==88:
         mouse.press("middle")
     print(str(request[0]))
         
