@@ -65,10 +65,42 @@ while True:
     if request[0]==25:
         keyboard.press("m")
     if request[0]==26:
-        mouse.press("left")
+        keyboard.press("left alt")
     if request[0]==27:
-        mouse.press("right")
+        keyboard.press("right alt")
     if request[0]==28:
+        keyboard.press("left ctrl")
+    if request[0]==29:
+        keyboard.press("right ctrl")
+    if request[0]==30:
+        keyboard.press("left ctrl")
+    if request[0]==31:
+        keyboard.press("space")
+    if request[0]==32:
+        keyboard.press("esc")
+    if request[0]==33:
+        keyboard.press("enter")
+    if request[0]==34:
+        keyboard.press("backspace")
+    if request[0]==35:
+        keyboard.press("tab")
+    if request[0]==36:
+        keyboard.press("delete")
+    if request[0]==37:
+        keyboard.press("insert")
+    if request[0]==38:
+        keyboard.press("up")
+    if request[0]==39:
+        keyboard.press("down")
+    if request[0]==40:
+        keyboard.press("left")
+    if request[0]==41:
+        keyboard.press("right")
+    if request[0]==42:
+        mouse.press("left")
+    if request[0]==43:
+        mouse.press("right")
+    if request[0]==44:
         mouse.press("middle")
     print(str(request[0]))
         
