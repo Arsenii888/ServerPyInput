@@ -1,6 +1,6 @@
 import socket
 import keyboard
-Import mouse
+import mouse
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(('localhost', 5050))
