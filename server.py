@@ -1,5 +1,6 @@
 import socket
 import keyboard
+Import mouse
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(('localhost', 5050))
@@ -64,5 +65,11 @@ while True:
     if request[0]==25:
         keyboard.press("m")
     print(str(request[0]))
+    if request[0]==26:
+        mouse.press("left")
+    if request[0]==27:
+        mouse.press("right")
+    if request[0]==28:
+        mouse.press("middle")
         
     c.close()
