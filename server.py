@@ -133,76 +133,72 @@ while True:
         keyboard.press("f3")
     if request[0]==58:
         keyboard.press("f4")
-    if request[0]==58:
-        keyboard.press("f5")
     if request[0]==59:
-        keyboard.press("f6")
+        keyboard.press("f5")
     if request[0]==60:
-        keyboard.press("f7")
+        keyboard.press("f6")
     if request[0]==61:
-        keyboard.press("f8")
+        keyboard.press("f7")
     if request[0]==62:
-        keyboard.press("f9")
+        keyboard.press("f8")
     if request[0]==63:
-        keyboard.press("f10")
+        keyboard.press("f9")
     if request[0]==64:
-        keyboard.press("f11")
+        keyboard.press("f10")
     if request[0]==65:
-        keyboard.press("f12")
+        keyboard.press("f11")
     if request[0]==66:
-        keyboard.press("num 0")
+        keyboard.press("f12")
     if request[0]==67:
-        keyboard.press("num 1")
+        keyboard.press("num 0")
     if request[0]==68:
-        keyboard.press("num 2")
+        keyboard.press("num 1")
     if request[0]==69:
-        keyboard.press("num 3")
+        keyboard.press("num 2")
     if request[0]==70:
-        keyboard.press("num 4")
+        keyboard.press("num 3")
     if request[0]==71:
-        keyboard.press("num 5")
+        keyboard.press("num 4")
     if request[0]==72:
-        keyboard.press("num 6")
+        keyboard.press("num 5")
     if request[0]==73:
-        keyboard.press("num 7")
+        keyboard.press("num 6")
     if request[0]==74:
-        keyboard.press("num 8")
+        keyboard.press("num 7")
     if request[0]==75:
-        keyboard.press("num 9")
+        keyboard.press("num 8")
     if request[0]==76:
-        keyboard.press("num *")
+        keyboard.press("num 9")
     if request[0]==77:
-        keyboard.press("num /")
+        keyboard.press("num *")
     if request[0]==78:
-        keyboard.press("num +")
+        keyboard.press("num /")
     if request[0]==79:
-        keyboard.press("num -")
+        keyboard.press("num +")
     if request[0]==80:
-        keyboard.press("num enter")
+        keyboard.press("num -")
     if request[0]==81:
-        keyboard.press("num .")
+        keyboard.press("num enter")
     if request[0]==82:
-        keyboard.press("caps lock")
+        keyboard.press("num .")
     if request[0]==83:
-        keyboard.press("screen lock")
+        keyboard.press("caps lock")
     if request[0]==84:
-        keyboard.press("print screen")
+        keyboard.press("screen lock")
     if request[0]==85:
-        keyboard.press("pause")
+        keyboard.press("print screen")
     if request[0]==86:
-        mouse.press("left")
+        keyboard.press("pause")
     if request[0]==87:
-        mouse.press("right")
+        mouse.press("left")
     if request[0]==88:
-        mouse.press("middle")
+        mouse.press("right")
     if request[0]==89:
-        gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
-    if request[0]==90:
-        gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_B)
-    if request[0]==91:
-        gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_X)
-    if request[0]==92:
-        gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_Y)
+        mouse.press("middle")
+    if request[0]==90:                gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
+    if request[0]==90:     gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_B)
+    if request[0]==91:        gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_X)
+    if request[0]==92:        gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_Y)
     
     print(str(request[0]))
         
