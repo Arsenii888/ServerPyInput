@@ -1,6 +1,9 @@
 import socket
 import keyboard
 import mouse
+import vgamepad as vg
+
+gamepad = vg.VX360Gamepad()
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(('localhost', 5050))
@@ -192,6 +195,15 @@ while True:
         mouse.press("right")
     if request[0]==88:
         mouse.press("middle")
+    if request[0]==89:
+        gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_A)
+    if request[0]==90:
+        gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_B)
+    if request[0]==91:
+        gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_X)
+    if request[0]==92:
+        gamepad.press_button(button=vg.XUSB_BUTTON.XUSB_GAMEPAD_Y)
+    
     print(str(request[0]))
         
     c.close()
